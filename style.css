@@ -1,0 +1,107 @@
+body{
+    background-image: url('https://rmc.cl/wp-content/uploads/IA-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #87bdd8;
+	font-family: Georgia;
+	position: sticky;
+	text-align: center;
+	top: 0;
+}
+.navbar li {
+	float: left;
+}
+
+.navbar li a {
+	text-align: center;
+	display: block;
+	padding: 20px 18px 20px 18px;
+	color: black;
+	text-decoration: none;
+	font-size: 140%;
+}
+.navbar li a:hover:not(.active){
+    color: #696969;
+    text-decoration: none;
+}
+
+.active{
+    color: #696969;
+    border-bottom: 5px solid black;
+}
+h1 {
+  	text-shadow: 4px 4px 10px #599cde;
+  	text-align: center;
+  	margin: 25px;
+  	padding: 25px 25px;
+  	font-family: Courier;
+  	font-size: 260%;
+}
+h2 {
+    text-align: center;
+	color: black;
+	text-shadow: 4px 4px 10px #599cde;
+	font-family: Courier;
+}
+h3{
+    text-align: center;
+	color: black;
+	text-shadow: 4px 4px 10px #599cde;
+	font-family: Georgia;
+	margin: 25px 50px;
+	border-style: solid;
+  	border-color: #599cde;
+ 	border-width: 5px;
+  	background-color: #b7d7e8;
+  	font-size: 160%;
+  	padding: 25px;
+}
+.para{
+    text-align: center;
+  	margin: 50px;
+  	padding: 25px 25px;
+  	border-style: solid;
+  	border-color: #599cde;
+ 	border-width: 5px;
+  	background-color: #b7d7e8;
+  	font-size: 140%;
+}
+div.list{
+  	margin: 50px;
+  	padding: 25px 25px;
+  	border-style: solid;
+  	border-color: #599cde;
+ 	border-width: 5px;
+  	background-color: #b7d7e8;
+  	font-size: 140%;
+}
+hr{
+    height: 2px;
+    background-color: #4066d9;
+    border: none;
+    }
+.Image{
+  	border-style: solid;
+  	border-color: #599cde;
+ 	border-width: 5px;
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.Georgia {
+	font-family: "Georgia", Times, serif;
+}
+.horizontal{
+    display:inline;
+}
+ul{
+    list-style-type: none;
+}
